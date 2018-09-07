@@ -40,7 +40,7 @@ public class SupplementController {
 
 //        DEMO: Show Exception is thrown
         if (true) {
-            throw new RuntimeException("KEYBOARD NOT FOUND, PRESS F1 TO CONTINUE");
+            throw new RuntimeException("KEYBOARD NOT FOUND, PRESS F1 TO CONTINUE PLEASE");
         }
         return "supplements/supplementList";
     }
