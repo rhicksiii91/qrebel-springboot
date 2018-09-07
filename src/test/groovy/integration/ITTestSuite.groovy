@@ -8,7 +8,7 @@ import org.junit.runners.Suite
 
 @RunWith(Suite.class)
 @Suite.SuiteClasses([
-        ZMain.class, ZSupplements.class, ZOwners.class
+        ZMain.class, ZSupplements.class, ZOwners.class, ZOwnersList.class
 ])
 
 public class ITTestSuite {
