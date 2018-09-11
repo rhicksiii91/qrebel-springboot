@@ -79,7 +79,7 @@ public class SupplementController {
         }*/
 
         try {
-            String spec = "https://supplements.cfapps.io/";
+            String spec = "http://192.168.99.100:8888/supplements/";
             System.out.println("Calling to " + spec);
 
             URL url = new URL(spec);
