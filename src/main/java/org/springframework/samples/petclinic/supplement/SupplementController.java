@@ -47,6 +47,8 @@ public class SupplementController {
 
     private Collection<Supplement> getSupplements() {
         String json = getLocalSupplementsJson();
+//        String json = getRemoteSupplementsJson();
+
 
         try {
             ObjectMapper mapper = new ObjectMapper();
@@ -61,12 +63,12 @@ public class SupplementController {
     private String getLocalSupplementsJSon() {
         return
             "[" +
-                "{\"name\": \"Apples\", \"price\": \"123.6\"}," +
-                "{\"name\": \"Bananas\", \"price\": \"234.7\"}," +
-                "{\"name\": \"Carrots\", \"price\": \"345.8\"}," +
-                "{\"name\": \"Vitamin D\", \"price\": \"456.9\"}," +
-                "{\"name\": \"Vitamin E\", \"price\": \"987.9\"}" +
-            "]";
+                "{\"name\": \"Addlife\", \"price\": \"19.99\"}," +
+                "{\"name\": \"DentaTreat\", \"price\": \"99.99\"}," +
+                "{\"name\": \"Biotic pH+\", \"price\": \"16.99\"}," +
+                "{\"name\": \"Biotic pH-\", \"price\": \"16.99\"}," +
+                "{\"name\": \"C-Biotic\", \"price\": \"49.99\"}" +
+                "]";
     }
 
     private String getRemoteSupplementsJson() {
