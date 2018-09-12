@@ -39,14 +39,14 @@ public class SupplementController {
 		LOG.debug(results.toString());
 
 //        DEMO: Show Exception is thrown
-        if (true) {
-            throw new RuntimeException("KEYBOARD NOT FOUND, PRESS F1 TO CONTINUE PLEASE");
-        }
-        return "supplements/supplementList";
+//        if (true) {
+//            throw new RuntimeException("KEYBOARD NOT FOUND, PRESS F1 TO CONTINUE PLEASE");
+//        }
+//        return "supplements/supplementList";
     }
 
     private Collection<Supplement> getSupplements() {
-        String json = getRemoteSupplementsJson();
+        String json = getLocalSupplementsJson();
 
         try {
             ObjectMapper mapper = new ObjectMapper();
