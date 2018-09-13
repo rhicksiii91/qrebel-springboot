@@ -60,7 +60,7 @@ public class SupplementController {
 
     }
 
-    private String getLocalSupplementsJSon() {
+    private String getLocalSupplementsJson() {
         return
             "[" +
                 "{\"name\": \"Addlife\", \"price\": \"19.99\"}," +
