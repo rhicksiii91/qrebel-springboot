@@ -42,7 +42,7 @@ public class SupplementController {
 //        if (true) {
 //            throw new RuntimeException("KEYBOARD NOT FOUND, PRESS F1 TO CONTINUE PLEASE");
 //        }
-//        return "supplements/supplementList";
+        return "supplements/supplementList";
     }
 
     private Collection<Supplement> getSupplements() {
