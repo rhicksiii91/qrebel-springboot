@@ -74,11 +74,11 @@ public class SupplementController {
     private String getRemoteSupplementsJson() {
         StringBuilder sb = new StringBuilder();
 //        DEMO: Show slow request example
-//       try {
-//            Thread.sleep(10000); // fake delay
-//        } catch (InterruptedException e) {
-//            e.printStackTrace();
-//        }
+       try {
+            Thread.sleep(10000); // fake delay
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
 
         try {
             String spec = "http://192.168.99.100:8888/supplements/";
