@@ -10,6 +10,8 @@ class ZMain extends GebSpec {
     def "page contains h1 with specified text"() {
         given: "I'm at home page"
         to ZMainPage
+        to ZMainPage
+        to ZMainPage
 
         when: "Nothing"
 

@@ -8,6 +8,8 @@ class ZOwners extends GebSpec{
     def 'access owners'() {
         given:
         to ZOwnersPage
+        to ZOwnersPage
+        to ZOwnersPage
 
         when: 'nothing'
 
