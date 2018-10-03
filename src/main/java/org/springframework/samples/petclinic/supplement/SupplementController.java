@@ -47,8 +47,8 @@ public class SupplementController {
     }
 
     private Collection<Supplement> getSupplements() {
-        String json = getLocalSupplementsJson();
-//        String json = getRemoteSupplementsJson();
+//        String json = getLocalSupplementsJson();
+        String json = getRemoteSupplementsJson();
 
 
         try {
