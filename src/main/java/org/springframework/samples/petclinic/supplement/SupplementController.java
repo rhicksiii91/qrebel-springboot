@@ -76,7 +76,7 @@ public class SupplementController {
         StringBuilder sb = new StringBuilder();
 //        DEMO: Show slow request example
        try {
-            Thread.sleep(10000); // fake delay
+            Thread.sleep(2000); // fake delay
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
